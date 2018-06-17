@@ -1,0 +1,247 @@
+#collection{
+    font-family: 'Lato', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    .container{
+        .row{
+            .col-md-4{
+                .main{
+                    overflow: hidden;
+                    border: 2px solid wheat;
+                    padding: 0 0% 0 5%;
+                    box-shadow:
+                    0 15px 30px 0 rgba(0, 0, 0, 0.651),
+                    0 5px 15px 0 rgba(0, 0, 0, 0.521);
+                    transition: all 0.6s ease;
+                    &:hover{
+                        box-shadow:
+                        0px 5px 25px 5px rgba(0, 0, 0, 0.651), 0 5px 15px 0 rgba(0, 0, 0, 0.521);
+                    }
+                    .row{
+                        .col-md-6{
+                            padding: 0;
+                        .collection{
+                                padding: 19% 0% 0% 10%;
+                                color: white;
+                            }
+                            .picture{
+                                position: relative;
+                                img{
+                                    width: 130%;
+                                }
+                                input{
+                                    position: absolute;
+                                    bottom: 5%;
+                                    right: 15%;
+                                    margin-top: 3%;
+                                    padding: 12px 20px 12px 20px;
+                                    background: rgba(255, 255, 255, 0.3);
+                                    color: white;
+                                    font-weight: bold;
+                                    border: 2px solid gray;
+                                    transition: all 0.6s ease;
+                                        &:hover{
+                                        background: rgba(0,0,0,0.3);
+                                        color: wheat;
+                                        border: 2px solid wheat;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .shoes{
+                    background: linear-gradient(to right, rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.486)), url(../Images/shoes.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .bag{
+                    background: linear-gradient(to right, rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.486)), url(../Images/bag.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                }
+                .watch{
+                    background: linear-gradient(to right, rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.486)), url(../Images/watch.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #collection{
+        .container{
+            .row{
+                .col-md-4{
+                    .watch, .shoes{
+                        margin-top: 5%;
+                    }
+                    .main{
+                        .row{
+                            .col-md-6{
+                                .collection{
+                                    p{
+                                        padding-top: 25%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 359px){
+    #collection{
+        .container{
+            .row{
+                .col-md-4{
+                    .main{
+                        .row{
+                            .col-md-6{
+                                .collection{
+                                    p{
+                                        padding-top: 7%;
+                                        font-size: 0.8em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 360px) and (max-width: 410px){
+    #collection{
+        .container{
+            .row{
+                .col-md-4{
+                    .main{
+                        .row{
+                            .col-md-6{
+                                .collection{
+                                    p{
+                                        padding-top: 14%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 411px) and (max-width: 767px){
+    #collection{
+        .container{
+            .row{
+                .col-md-4{
+                    .main{
+                        .row{
+                            .col-md-6{
+                                .collection{
+                                    p{
+                                        padding-top: 26%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    #collection{
+        .container{
+            .row{
+                .col-md-4{
+                    .main{
+                        .row{
+                            .col-md-6{
+                                .collection{
+                                    padding: 8% 0% 0% 10%;
+                                    h1{
+                                        font-size: 2rem;
+                                        padding-top: 2%;
+                                    }
+                                    h3{
+                                        font-size: 1rem;
+                                    }
+                                    p{
+                                        font-size: 0.6em;
+                                        padding-top: 13%;
+                                    }
+                                }
+                                .picture{
+                                    input{
+                                        bottom: 4%;
+                                        padding: 5%;
+                                        font-size: 0.8em;
+                                        right: 23%;
+                                    }
+                                    img{
+                                        width: 100%;
+                                        padding-top: 27%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1024px) and (max-width: 1300px){
+    #collection{
+        .container{
+            .row{
+                .col-md-4{
+                    .main{
+                        .row{
+                            .col-md-6{
+                                .collection{
+                                    padding: 8% 0% 0% 10%;
+                                    h1{
+                                        font-size: 2.5rem;
+                                        padding-top: 2%;
+                                    }
+                                    h3{
+                                        font-size: 1.75rem;
+                                    }
+                                    p{
+                                        font-size: 0.6em;
+                                        padding-top: 17%;
+                                    }
+                                }
+                                .picture{
+                                    input{
+                                        bottom: 4%;
+                                        padding: 5%;
+                                        font-size: 0.8em;
+                                        right: 23%;
+                                    }
+                                    img{
+                                        width: 100%;
+                                        padding-top: 24%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

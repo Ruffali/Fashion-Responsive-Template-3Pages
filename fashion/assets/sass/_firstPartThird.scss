@@ -1,0 +1,267 @@
+#firstPart{
+    margin-top: 3%;
+    font-family: 'Source Serif Pro', serif;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.486)), url(../Images/shopCenter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 8%;
+    .container-fluid{
+        .row{
+            .col-md-12{
+                .row{
+                    .col-md-6{
+                        .leftPart{
+                            color: white;
+                            padding-top: 8%;
+                            .bigWord{
+                                font-size: 3.5em;
+                                font-weight: bold;
+                                text-shadow: 0 1px 0 #c9cfce, 0 1.3px 0 #bcc2c2, 
+                                                0 1.5px 0 #afb6b6, 0 1.7px 0 #a4adac, 
+                                                0 1.9px 0 #9fa8a7, 0 2.1px 0 #99a3a2,
+                                                0 2.3px 0 #97a1a0, 0 2.5px 0 #949e9d, 
+                                                0 20px 20px rgba(0, 0, 0, 0.3);
+                            }
+                            h1{
+                                text-transform: uppercase;
+                                span{
+                                    color: rgb(255, 212, 131);
+                                }
+                            }
+                            h3{
+
+                            }
+                            .button{
+                                padding-top: 8%;
+                                input{
+                                display: inline-block;
+                                text-transform: uppercase;
+                                letter-spacing: 0.4ch;
+                                background: transparent;
+                                color: white;
+                                font-weight: bold;
+                                border-left: 2px solid white;
+                                border-right: 2px solid white;
+                                transition: all 0.6s ease;
+                                margin-right: 3%;
+                                    &:hover{
+                                    transform: scale(1.1);
+                                    color: wheat;
+                                    border: 2px solid wheat;
+                                    border-top: none;
+                                    border-bottom: none;
+                                    letter-spacing: 0.8ch;
+                                    // margin: 2%;
+                                    }
+                                }
+                                p{
+                                display: inline-block;
+                                margin-right: 2%;
+                                }
+                                a{
+                                color: rgb(255, 212, 131);
+                                text-decoration: none;
+                                font-weight: bold;
+                                font-size: 1.1em;
+                                transition: all 0.6s ease;
+                                    &:hover{
+                                        padding-left: 2%;
+                                        letter-spacing: 0.2ch;
+                                    }    
+                                }
+                            }
+                        }
+                    }
+                    .col-md-6{
+                        .rightPart{
+                            position: relative;
+                            width: 100%;
+                            padding-top: 10%;
+                            img{
+                                position: absolute;
+                                width: 50%;
+                            }
+                            .bag{
+                                left: 48%;
+                                padding-top: 17%;
+                                z-index: 2;
+                            }
+                            .clock{
+                                left: 36%;
+                                width: 26%;
+                                padding-top: 32%;
+                                z-index: 4;
+                            }
+                            .suit{
+                                left: 27%;
+                                z-index: 1;
+                            }
+                            .shoes{
+                                left: 12%;
+                                padding-top: 34%;
+                                width: 38%;
+                                z-index: 3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #firstPart{
+        padding-left: 0%;
+        padding-right: 0%;
+        .container-fluid{
+            .row{
+                .col-md-12{
+                    .row{
+                        .col-md-6{
+                            .leftPart{
+                                padding-left:8%;
+                                .bigWord{
+                                    font-size: 1em;
+                                }
+                                h1{
+                                    font-size: 0.8rem;
+                                }
+                                h3{
+                                    font-size: .6rem;
+                                }
+                                .button{
+                                    padding-top: 1%;
+                                    input{
+                                    font-size: 0.4rem;
+                                    padding: 2%;
+                                    border-left: 1px solid white;
+                                    border-right: 1px solid white;
+                                    margin-right: 2%;
+                                    }
+                                    p{
+                                    margin-right: 1%;
+                                    font-size: 0.6rem;
+                                    }
+                                    a{
+                                    font-size: 0.5rem;
+                                    }
+                                }
+                            }
+                        }
+                        .col-md-6{
+                            .rightPart{
+                                width: 100%;
+                                padding-top: 26%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    #firstPart{
+        padding-left: 0%;
+        padding-right: 0%;
+        .container-fluid{
+            .row{
+                .col-md-12{
+                    .row{
+                        .col-md-6{
+                            .leftPart{
+                                padding-left:8%;
+                                .bigWord{
+                                    font-size: 2.1em;
+                                }
+                                h1{
+                                    font-size: 1.4rem;
+                                }
+                                h3{
+                                    font-size: 1rem;
+                                }
+                                .button{
+                                    padding-top: 1%;
+                                    input{
+                                    font-size: 0.6rem;
+                                    padding: 2%;
+                                    border-left: 1.5px solid white;
+                                    border-right: 1.5px solid white;
+                                    margin-right: 2%;
+                                    }
+                                    p{
+                                    margin-right: 1%;
+                                    font-size: 0.7rem;
+                                    }
+                                    a{
+                                    font-size: 0.7rem;
+                                    }
+                                }
+                            }
+                        }
+                        .col-md-6{
+                            .rightPart{
+                                width: 83%;
+                                padding-top: 11%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1024px) and (max-width: 1300px){
+    #firstPart{
+        padding-left: 0%;
+        padding-right: 0%;
+        .container-fluid{
+            .row{
+                .col-md-12{
+                    .row{
+                        .col-md-6{
+                            .leftPart{
+                                padding-left:8%;
+                                .bigWord{
+                                    font-size: 2.4em;
+                                }
+                                h1{
+                                    font-size: 1.6rem;
+                                }
+                                h3{
+                                    font-size: 1.2rem;
+                                }
+                                .button{
+                                    padding-top: 1%;
+                                    input{
+                                    font-size: 0.8rem;
+                                    padding: 2%;
+                                    border-left: 2px solid white;
+                                    border-right: 2px solid white;
+                                    margin-right: 2%;
+                                    }
+                                    p{
+                                    margin-right: 1%;
+                                    font-size: 0.9rem;
+                                    }
+                                    a{
+                                    font-size: 0.8rem;
+                                    }
+                                }
+                            }
+                        }
+                        .col-md-6{
+                            .rightPart{
+                                width: 70%;
+                                padding-top: 11%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

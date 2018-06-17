@@ -1,0 +1,217 @@
+#about{
+    margin-bottom: -11%;
+    font-family: 'Source Serif Pro', serif;
+    .container{
+        .row{
+            .col-md-6{
+                padding-bottom: 0%!important;
+                .leftSide{
+                    text-align: center;
+                    h1{
+                        font-size: 3em;
+                        padding-top: 18%;
+                    }
+                    .redText{
+                        color: #d91522;
+                        padding-top: 6%;
+                        padding-bottom: 2%;
+                    }
+                    span{
+                        color: rgb(156, 156, 156);
+                    }
+                }
+                .rightSide{
+                    .row{
+                        .col-md-6{
+                            img{
+                                height: 350px;
+                                width: 100%;
+                            }
+                            .photoModel1{
+                                margin-top: 15%;
+                            }
+                        }
+                        .downPicture{
+                            text-align: center;
+                            .contentLeft{
+                                opacity: 0;
+                                transform: translate(0%, -230%);
+                                transition: all 1s ease;
+                               
+                                
+                                .hoverText{
+                                    visibility: hidden;
+                                    font-size: 1.1em;
+                                    padding: 10% 0 15% 0;
+                                    color: white;
+                                    transition: all 0.8s ease;
+                                }
+                                
+                            }
+                            .mainText{
+                                color: white;
+                                font-size: 2.3em;
+                                font-weight: 600;
+                                padding: 15% 0% 8% 0%;
+                                transform: translate(0%, -255%);
+                                text-shadow: 0 1px 0 hsl(174,5%,80%),
+                                0 0 5px rgba(0,0,0,.05),
+                                0 1px 3px rgba(0,0,0,.2),
+                                0 3px 5px rgba(0,0,0,.2),
+                                0 5px 10px rgba(0,0,0,.2),
+                                0 10px 10px rgba(0,0,0,.2),
+                                0 20px 20px rgba(0,0,0,.3);
+                                span{
+                                    color: #d91522;
+                                }
+                            }
+                            &:hover .contentLeft{
+                                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7));
+                                opacity: 1;
+                                transition: all 1s ease;
+                            }
+                            &:hover .hoverText{
+                                visibility: visible;
+                                transition: all 0.8s ease;
+                            }
+                        }
+                        .upPicture{
+                            text-align: center;
+                            .contentRight{
+                                opacity: 0;
+                                transform: translate(0%, -230%);
+                                transition: all 1s ease;
+                               
+                                
+                                .hoverText{
+                                    visibility: hidden;
+                                    font-size: 1.1em;
+                                    padding: 10% 0 15% 0;
+                                    color: white;
+                                    transition: all 0.8s ease;
+                                }
+                                
+                            }
+                            .mainText{
+                                color: white;
+                                font-size: 2.3em;
+                                font-weight: 600;
+                                padding: 15% 0% 8% 0%;
+                                transform: translate(0%, -255%);
+                                text-shadow: 0 1px 0 hsl(174,5%,80%),
+                                0 0 5px rgba(0,0,0,.05),
+                                0 1px 3px rgba(0,0,0,.2),
+                                0 3px 5px rgba(0,0,0,.2),
+                                0 5px 10px rgba(0,0,0,.2),
+                                0 10px 10px rgba(0,0,0,.2),
+                                0 20px 20px rgba(0,0,0,.3);
+                                span{
+                                    color: #d91522;
+                                }
+                            }
+                            &:hover .contentRight{
+                                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7));
+                                opacity: 1;
+                                transition: all 1s ease;
+                            }
+                            &:hover .hoverText{
+                                visibility: visible;
+                                transition: all 0.8s ease;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 410px){
+    #about{
+        margin-top: -15%!important;
+        .container{
+            .row{
+                .col-md-6{
+                    .rightSide{
+                        .row{
+                            .downPicture{
+                                margin-bottom: -70%!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 411px) and (max-width: 767px){
+    #about{
+        margin-top: -15%!important;
+        .container{
+            .row{
+                .col-md-6{
+                    .rightSide{
+                        .row{
+                            .downPicture{
+                                margin-bottom: -65%!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    #about{
+        .container{
+            .row{
+                .col-md-6{
+                    .rightSide{
+                        .row{
+                            .col-md-6{
+                                img{
+                                    height: 285px;
+                                }
+                                .contentLeft{
+                                    transform: translate(0%, -170%);
+                                }
+                                .contentRight{
+                                    transform: translate(0%, -170%);
+                                }
+                            }
+                            .downPicture{
+                                .mainText{
+                                    padding-top: 0;
+                                }
+                            }
+                            .upPicture{
+                                .mainText{
+                                    padding-top: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1023px){
+    #about{
+        .container{
+            .row{
+                .col-md-6{
+                    .rightSide{
+                        .row{
+                            .downPicture, .upPicture{
+                                .mainText{
+                                    transform: translate(0%, -318%)!important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

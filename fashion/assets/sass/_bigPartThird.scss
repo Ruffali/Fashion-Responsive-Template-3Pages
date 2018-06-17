@@ -1,0 +1,124 @@
+#bigPart{
+    margin-top: 5%;
+    font-family: 'Lato', sans-serif;
+    .container-fluid{
+        .row{
+            .col-md-12{
+                padding: 0;
+                .main{
+                    text-align: center;
+                    width: 100%;
+                    height: 700px;
+                    padding-top: 6%;
+                    background: linear-gradient(to right, rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.486)), url(../Images/shop.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    color: white;
+                    text-transform: uppercase;
+                    h1{
+                        padding-top: 1%;
+                    }
+                    i{
+                        font-size: 2.2em;
+                        transform: rotate(180deg);
+                    }
+                    .littleWord{
+                        font-size: 1.2em;
+                    }
+                    .middleWord{
+                        font-size: 2em;
+                    }
+                    .bigWord{
+                        font-size: 5em;
+                    }
+                    .normalSize{
+                        font-size: 2.5em;
+                    }
+                    input{
+                        text-transform: uppercase;
+                        letter-spacing: 0.4ch;
+                        padding: 12px 20px 12px 20px;
+                        background: transparent;
+                        color: white;
+                        font-weight: bold;
+                        border-bottom: 2px solid white;
+                        border-top: 2px solid white;
+                        transition: all 0.6s ease;
+                            &:hover{
+                            transform: scale(1.1);
+                            color: wheat;
+                            border: 2px solid wheat;
+                            border-left: none;
+                            border-right: none;
+                            letter-spacing: 0.8ch;
+                            margin: 2%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #bigPart{
+        .container-fluid{
+            .row{
+                .col-md-12{
+                    padding: 0;
+                    .main{
+                        height: 260px;
+                        i{
+                            font-size: 1.5em;
+                        }
+                        .littleWord{
+                            font-size: 0.6em;
+                        }
+                        .middleWord{
+                            font-size: 1.4em;
+                        }
+                        .bigWord{
+                            font-size: 1.3em;
+                        }
+                        .normalSize{
+                            font-size: 1em;
+                        }
+                        input{
+                            font-size: 0.8rem;
+                            padding: 2%;
+                            border-bottom: 1px solid white;
+                            border-top: 1px solid white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 360px) and (max-width: 767px){
+    #bigPart{
+        .container-fluid{
+            .row{
+                .col-md-12{
+                    .main{
+                        height: 280px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    #bigPart{
+        .container-fluid{
+            .row{
+                .col-md-12{
+                    .main{
+                        height: 600px;
+                    }
+                }
+            }
+        }
+    }
+}
